@@ -1,0 +1,153 @@
+.nav1 ul,.nav2 ul{
+    list-style: none;
+    font-size: 100%;
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-left:30px;
+}
+.nav1{
+    background-color: #00b4d8;
+    color: white;
+     height:70px;
+}
+.nav2{
+    background-color: #f77f00;
+    height:45px;
+}
+ .nav1 li,.nav2 li{
+    padding-right:50px;
+ }
+
+ .img,h3,h1,.img3,h3,h4,.dog1,.cat1{
+    display:flex;
+     flex-wrap:wrap;
+    margin-left: 10px;
+    justify-content: center;
+    
+  }
+  .img div{
+      margin-right:30px;
+      border: 1px solid #000000;
+      padding:40px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+      text-align: center;
+      background-color:#fcffa4;
+  }
+  .img3 div{
+    margin-right:30px;
+      border: 1px solid #000000;
+      padding:40px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+      text-align: center;
+     background-color:#fcffa4;
+  }
+  .dog1 div{
+    margin-right:30px;
+      border: 1px;
+      padding:40px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+      text-align: center;
+     background-color:#fcffa4;
+     
+  }
+  .cat1 div{
+    margin-right:30px;
+      border: 1px;
+      padding:40px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      justify-content: center;
+      text-align: center;
+     background-color:#fcffa4;
+     
+  }
+  .submit{
+     background-color: #e5e4e2 ;
+  }
+  .submit:hover{
+   background-color: #dc143c;
+   color: white;
+  }
+  .footer{
+    text-align: center;
+    gap:35px;
+    background-color: #f77f00;
+    height:45px;
+  }
+  .nav2 li:hover{
+    background-color: rgb(253, 246, 66);
+    border:none;
+    color:white;
+    padding:10px 20px;
+    border-radius: 48%;
+    transition:0.3s;
+}
+  
+  .img div:hover{
+    background-color: #90e0ef;
+    color:red;
+  }
+  .img3 div:hover{
+    background-color: #90e0ef;
+    color:red;
+  }
+  .dog1 div:hover{
+    background-color: #90e0ef;
+    color:red;
+  }
+  .cat1 div:hover{
+    background-color: #90e0ef;
+    color:red;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .nav1 ul {
+      flex-direction: column;
+    }
+    .nav1 li {
+      width: 100%;
+      text-align: center;
+    }
+    .nav1 li img {
+      width: 50px;
+      height: 50px;
+    }
+    .nav1 li input[type="text"] {
+      width: 80%;
+    }
+    .nav1 li ion-icon {
+      font-size: 18px;
+    }
+  }
+  
+  
+  /* Media query for larger desktop devices (min-width: 720px) */
+  @media only screen and (max-width: 720px) {
+    .nav1 ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .nav1 li {
+      width: 20%;
+      text-align: center;
+    }
+    .nav1 li img {
+      width: 60px;
+      height: 60px;
+    }
+    .nav1 li input[type="text"] {
+      width: 70%;
+    }
+    .nav1 li ion-icon {
+      font-size: 20px;
+    }
+  }
